@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 1</title>
+
+        <style>
+            body{
+                margin:0;
+                background-color: #0F4E7D;
+                padding: 5% 25%;
+            }
+            h1, h2{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: white;
+                line-height: 0.5;
+            }
+            p{
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                font-size: 1.25rem;
+            }
+            span{
+                font-weight: bold;
+            }
+            #content{
+                margin-top: 4rem;
+                padding: 2vw;
+                background-color: rgba(68, 128, 167, 0.5);
+                border-radius: 15px;
+            }
+            #img{
+                position: relative;
+            }
+            #img p{
+                position: absolute;
+                bottom: 0;
+                padding: 1vw;
+            }
+            img{
+                width: 100%;
+            }
+            a{
+                color: #D0BAB4;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            #subscribe{
+                margin-top: 4vw;
+                background-color: rgba(68, 128, 167, 0.5);
+                border-radius: 15px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            input{
+                width: 100%;
+                margin-bottom: 1vw;
+                height: 2rem;
+            }
+            #check{
+                width: auto;
+                color: white;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                height: auto;
+            }
+            #btn{
+                background-color: #D0BAB4;
+                color: white;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: bold;
+                font-size: 1rem;
+                height: 2.5rem;
+                border-radius: 15px;
+                margin-top: 1vw;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Alyssa Blanco</h1>
+        <h2>Digital Media Design Graduate Program</h2>
+
+        <div id="content">
+            <p>
+                Hello!<br>
+                I am a freelance front-end web developer from <span>Tampa, FL</span>.<br><br>
+                I graduated in 2020 with a bachelors in Digital Media - Web Development.
+                I mainly work with HTML/CSS/JavaScript and have started learning React.js.
+                I also have lots of experience with UX design and implementation.
+            </p>
+    
+            <div id="img">
+                <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/06/06/12/denver-skyline.jpg?width=982&height=726&auto=webp&quality=75"/>
+                <p>Denver is my favorite place because it is where my significant other lives and I plan on moving there soon.</p>
+            </div>
+    
+            <p><a href="https://www.miguelscafe.com/">Miguel's Mexican Seafood & Grill</a> is my favorite restaurant!</p>
+    
+            <div id="subscribe">
+                <p><span>Subscribe to my newsletter!</span></p>
+                <form>
+                    <input type="text" placeholder="First Name"><br>
+                    <input type="text" placeholder="Last Name"><br>
+                    <input type="text" placeholder="Email"><br>
+                    <input type="checkbox" id="check">
+                    <label id="check" for="check">I acknowledge permission to be added to the list</label><br>
+                    <input id="btn" type="submit" value="Join the club!">
+                </form>        
+            </div>
+        </div>
+    </body>
+</html>
